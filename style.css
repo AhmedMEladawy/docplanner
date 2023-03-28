@@ -1,0 +1,150 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 80%;
+    margin: auto;
+}
+nav {
+    
+}
+.nav-list {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    gap: 2rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-list ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+.paragraph {
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size:xx-large;
+    margin: 10px;
+    padding: 10px;
+    gap:5px;
+}
+.header2 {
+text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* grid-template-rows: auto auto auto auto; */
+    justify-content: center;
+    grid-column-gap: 50px;
+}
+.container h3{
+font-size: larger;
+text-align: center;
+}
+.container p{
+    font-size: 25px;
+    margin: 0px;
+    font-weight: 100;
+    line-height: 40px;
+    
+}
+.container select{
+    font-size: large;
+}
+.patients {
+    display: flex;
+    background-color: aqua;
+    flex-direction: column;
+    /* grid-row-gap: 100px; */
+    gap: 50px;
+    /* margin: 5px; */
+    padding: 25px; 
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+}
+.patients img{
+    width: 50px;
+}
+.doctors {
+    display: flex;
+    background-color:bisque;
+    flex-direction: column;
+    gap: 50px;
+    padding: 25px; 
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    
+}
+.clinics {
+    display: flex;
+    background-color:blue;
+    flex-direction: column;
+    gap: 50px;
+    padding: 25px; 
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+}
+
+#logos{
+    display: flex;
+    margin-top: 30px;
+          
+}
+.logo-head{
+    display: flex;
+    font-size: larger;
+    align-items: center;
+    font-size: 20px;
+    margin: 30px;
+    width: 30%;
+    color: aquamarine;    
+}
+#logoimg{
+    display: flex;
+    flex-wrap: wrap;
+    width: 92%;
+    align-items: center;
+    justify-content: space-between; 
+}
+#logoimg li{
+width: 225px;
+list-style: none;
+padding: 5px;
+}
+#stats {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#boxes {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+}
+.box {
+    width: 200px;
+    height: 300px;
+    background-color:brown;
+    float: right;
+}
+
+.headerpics{
+    width: 80%;
+    margin: auto;
+    width: 400px;
+}
+.pictures {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* grid-template-rows: auto auto; */
+    grid-gap: 10px;
+    width: 100%;
+}
